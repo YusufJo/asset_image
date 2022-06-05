@@ -1,0 +1,31 @@
+name: asset_image
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - asset/icon/layers.png
+    - asset/icon/2.0x/layers.png
+    - asset/icon/3.0x/layers.png
+    - asset/icon/4.0x/layers.png
